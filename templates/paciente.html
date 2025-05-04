@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Progreso del Paciente</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Gráfico de Progreso</h1>
+  <canvas id="graficoProgreso" width="400" height="200"></canvas>
+  <script>
+    const ctx = document.getElementById('graficoProgreso');
+    const chart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: ['Evaluación 1', 'Evaluación 2', 'Evaluación 3'],
+        datasets: [{
+          label: 'Puntaje Lenguaje',
+          data: [60, 70, 85],
+          borderColor: 'blue',
+          tension: 0.3
+        }]
+      },
+      options: {
+        responsive: true
+      }
+    });
+  </script>
+</body>
+</html>

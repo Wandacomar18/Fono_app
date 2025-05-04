@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Galería de Ejercicios</title></head>
+<body>
+  <h1>Ejercicios Terapéuticos</h1>
+  {% for ejercicio in ejercicios %}
+    <div>
+      <h3>{{ ejercicio.nombre }} ({{ ejercicio.categoria }})</h3>
+      <p>{{ ejercicio.descripcion }}</p>
+    </div>
+  {% endfor %}
+</body>
+</html>
