@@ -4,3 +4,4 @@ pandas
 xhtml2pdf
 reportlab
 openpyxl
+SQLAlchemy
