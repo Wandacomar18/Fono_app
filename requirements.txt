@@ -1,4 +1,6 @@
 Flask
+gunicorn
 pandas
 xhtml2pdf
-gunicorn
+reportlab
+openpyxl
