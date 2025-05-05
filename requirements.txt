@@ -1,5 +1,4 @@
-app = Flask(__Fono_app.py__)
-psycopg2-binary
+app = Flask(__Fono_app.py__)psycopg2-binary
 pandas
 xhtml2pdf
 gunicorn
