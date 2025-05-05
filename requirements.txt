@@ -1,4 +1,4 @@
-app = Flask(Fono_app)sqlalchemy
+app = Flask(Fono_app.py)
 psycopg2-binary
 pandas
 xhtml2pdf
