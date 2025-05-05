@@ -1,4 +1,4 @@
-flask
+flask(__Fono_app__)
 sqlalchemy
 psycopg2-binary
 pandas
